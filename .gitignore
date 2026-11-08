@@ -1,0 +1,28 @@
+# Bytecode and runtime cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & API Secrets (CRITICAL)
+.env
+*.token
+*.key
+
+# NLTK and SpaCy local data caches
+nltk_data/
+models/
+
+# Generated graphs & visualizations
+*.png
+*.jpg
+*.pdf
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE & OS Metadata
+.idea/
+.vscode/
+.DS_Store
